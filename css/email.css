@@ -1,0 +1,24 @@
+/***************************************/
+/*           Email Styling             */
+/***************************************/
+
+
+.main-content{
+	margin: 0px;
+	padding:20px;
+	width:800px;
+	border:1px solid rgb(200,200,200);
+}
+
+.cobham-logo img{
+	width:800px;
+	margin:0px auto;
+}
+
+.signature{
+	position:relatif;
+	font-family: verdana, sans-serif;
+	font-size: 0.5em;
+	color:rgb(0,0,153);
+	text-align: justify;
+}
