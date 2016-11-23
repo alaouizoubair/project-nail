@@ -1,6 +1,7 @@
 /*-----------------------------ESERVICES Stylesheet----------------------------*/
 html{
 	box-sizing: border-box;
+	font-family: Raleway;
 }
 /* A.Z: SideNav stype */
 
@@ -14,6 +15,12 @@ header, main, footer {
   }
 }
 
+@media only screen and (min-width: 993px){}
+	.container {
+	    width: 80%;
+	}
+}
+
 hr{
 	border:1px solid #d81b60;
 }
@@ -21,42 +28,6 @@ hr{
 table tr{
 	line-height:5px;
 }
-
-/*******************************
-*Cobham Logo
-******************************/
-.cobham-logo{
-	width:100%;
-}
-
-/*******************************
-*Authentication box
-*******************************/
-.auth-box{
-	margin: 100px auto;
-	padding: 40px 70px 70px 70px;
-	width: 500px;
-	border:1px solid #bbb;
-	box-shadow: 0px 0px 1px black;
-}
-
-.background-line {
-  display: table;
-  white-space: nowrap; }
-
-.background-line:before, .background-line:after {
-	border-top: 1px solid silver;
-	content: '';
-	display: table-cell;
-	position: relative;
-	top: 0.8em;
-	width: 50%; 
-}
-
-.background-line > span{
-	margin: 5px;
-}
-
 
 /********************************
 * Main content - Tables container
@@ -67,54 +38,53 @@ table tr{
 	box-shadow: 0px 0px 3px #aaa;
 }
 
-/**********************************
-* Details page style
-*********************************/
-.details-content{
-	box-shadow: 0px 0px 1px #aaa;
-	padding: 10px;
-	margin-top:20px;
+.tabs-container{
+	margin-bottom:30px; 
 }
 
-.details-content table input{
-	border-top:1px solid #eee;
-	border-right:1px solid #eee;
-	border-left:1px solid #eee;
-	height: 30px;
-	padding: 1px 5px;
-	margin: 0px;
-	font-size:0.8em;
-	box-sizing: border-box;
+.tabs .tab  a {
+	color:#4A148C;
+	font-weight: 600;
 }
 
-.details-content .collapsible-body{
-	padding: 0px 10px;
+.tabs .tab  a:hover {
+	color:#BA68C8;
 }
 
-.menu-button {
-	padding-left: 2px; 
-	padding-right: 1px; 
-	margin-bottom:0px; 
+.tabs .indicator{
+	background-color: #AA00FF;
 }
 
-.menu-button a{
-	box-sizing: border-box;
-	margin: 0px;
-	border-radius:0px;
+/********************************
+* Main content - Compétance
+**********************************/
+
+.card-image img{
+	height:200px;
+
 }
 
-.input-detail{
-	padding: 10px;
-	text-align: center;
+/********************************
+* Contact INFO
+**********************************/
+
+.contact-image{
+	width:200px;
 }
 
-.input-detail  input, .input-detail  textarea{
-	border-top:1px solid #eee;
-	border-right:1px solid #eee;
-	border-left:1px solid #eee;
-	padding: 1px 5px;
-	margin: 0px;
-	font-size:1em;
-	box-sizing: border-box;
+i{
+	display: inline;
+	vertical-align: middle;
+}
+.start-image img{
+	position:relative;
+	width: 100%;
 }
 
+#back-home{
+	background-image: url('../images/map.jpg');
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+
+}
