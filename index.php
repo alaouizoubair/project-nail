@@ -22,7 +22,7 @@
 
   <body vocab="http://schema.org/">
   	<ul id="language-dropdown" class="dropdown-content">
-	  <li><a href="en/">Anglais</a></li>
+	  <li><a href="en">Anglais</a></li>
 	  <li class="divider"></li>
 	  <li><a href="jp">Japonais</a></li>
 	</ul>
