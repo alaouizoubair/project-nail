@@ -33,12 +33,13 @@
       	  </ul>
 
       	  <ul class="side-nav" id="mobile-demo">
-      	  	<li onclick="changeTab('test1')"><a>経験</a></li>
-      	  	<li onclick="changeTab('test2')"><a>教育</a></li>
-      	  	<li onclick="changeTab('test3')"><a>プロジェクト</a></li>
-      	  	<li onclick="changeTab('test4')"><a>技能</a></li>
-      	  	<li onclick="changeTab('test5')"><a>言語</a></li>
-      	  	<li onclick="changeTab('test6')"><a>典型的な一日</a></li>
+      	  	<li onclick="changeTab('test0')"><a><i class="material-icons">account_balance</i>&nbsp;自宅</a></li>
+      	  	<li onclick="changeTab('test1')"><a><i class="material-icons">work</i>&nbsp;経験</a></li>
+      	  	<li onclick="changeTab('test2')"><a><i class="material-icons">school</i>&nbsp;教育</a></li>
+      	  	<li onclick="changeTab('test3')"><a><i class="material-icons">code</i>&nbsp;プロジェクト</a></li>
+      	  	<li onclick="changeTab('test4')"><a><i class="material-icons">settings</i>&nbsp;技能</a></li>
+      	  	<li onclick="changeTab('test5')"><a><i class="material-icons">language</i>&nbsp;言語</a></li>
+      	  	<li onclick="changeTab('test6')"><a><i class="material-icons">favorite</i>&nbsp;典型的な一日</a></li>
       	  </ul>
 	    </div>
 	</nav>
@@ -47,13 +48,32 @@
 		<div class="row">
 			<div class="col s12 tabs-container hide-on-med-and-down">
 				<ul class="tabs">
-					<li class="tab col s3"><a href="#test1">経験</a></li>
-					<li class="tab col s3"><a href="#test2">教育</a></li>
-					<li class="tab col s3"><a href="#test3">プロジェクト</a></li>
-					<li class="tab col s3"><a href="#test4">技能</a></li>
-					<li class="tab col s3"><a href="#test5">言語</a></li>
-					<li class="tab col s3"><a href="#test6">典型的な一日</a></li>
+					<li class="tab col s3"><a href="#test0"><i class="material-icons">account_balance</i>&nbsp;自宅</a></li>
+					<li class="tab col s3"><a href="#test1"><i class="material-icons">work</i>&nbsp;経験</a></li>
+					<li class="tab col s3"><a href="#test2"><i class="material-icons">school</i>&nbsp;教育</a></li>
+					<li class="tab col s3"><a href="#test3"><i class="material-icons">code</i>&nbsp;プロジェクト</a></li>
+					<li class="tab col s3"><a href="#test4"><i class="material-icons">settings</i>&nbsp;技能</a></li>
+					<li class="tab col s3"><a href="#test5"><i class="material-icons">language</i>&nbsp;言語</a></li>
+					<li class="tab col s3"><a href="#test6"><i class="material-icons">favorite</i>&nbsp;典型的な一日</a></li>
 				</ul>
+			</div>
+			<div id="test0" class="col s12">
+				<div class="row">
+					
+					<div id="back-home" class="col s12 m12 l12 center-align " >
+						<!--<img src="images/zoubair.png" alt="" class="contact-image circle responsive-img">-->
+						<img src="../images/zoubair.jpg" alt="" class="contact-image circle responsive-img" property="image"> 
+						<h4 ><span property="familyName">アラウィ </span><span property="givenName">ズブアール</span></h4>
+
+						<h6><i class="material-icons">email</i>&nbsp;<span property="email">zoubair@alaoui.in</span></h6>
+						<h6><i class="material-icons">phone</i>&nbsp;<span property="telephone">+33 615-511-420</span></h6>
+						<h6><b>"悲観論者はあらゆる機会に困難を感じている。 楽観主義者はあらゆる難しさの中でチャンスを見ている。" </b><br/>Winston Churchill</h6>
+					</div>
+					
+					<!-- <div class="col s12 m12 l8 center-align start-image">
+						<img src="images/pc.jpg"> 
+					</div> -->
+				</div>
 			</div>
 			<div id="test1" class="col s12">
 				<div class="col s12 m6">
@@ -75,7 +95,7 @@
 							<div class="card-action">
 									<span class="col s6 m6 align-left purple-text"><b>09/2015 - 現在</b></span>
 									<span class="col s6 m6 right-align purple-text"><b>ランジス - フランス</b></span>
-									<br/>09/2015
+									<br/>
 							</div>
 						</div>
 					</div>
