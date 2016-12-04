@@ -35,13 +35,13 @@
       	  </ul>
 
       	  <ul class="side-nav" id="mobile-demo">
-      	  	<li onclick="changeTab('test0')"><a  href="#test0"><i class="material-icons">account_balance</i>&nbsp;Accueil</a></li>
-      	  	<li onclick="changeTab('test1')"><a href="#test1"><i class="material-icons">work</i>&nbsp;Expérience</a></li>
-      	  	<li onclick="changeTab('test2')"><a href="#test2"><i class="material-icons">school</i>&nbsp;Formation</a></li>
-      	  	<li onclick="changeTab('test3')"><a href="#test3"><i class="material-icons">code</i>&nbsp;Projet</a></li>
-      	  	<li onclick="changeTab('test4')"><a href="#test4"><i class="material-icons">settings</i>&nbsp;Compétence</a></li>
-      	  	<li onclick="changeTab('test5')"><a href="#test5"><i class="material-icons">g_translate</i>&nbsp;Langues</a></li>
-      	  	<li onclick="changeTab('test6')"><a href="#test6"><i class="material-icons">favorite</i>&nbsp;Un jour</a></li>
+      	  	<li onclick="changeTab('test0')"><a  href="#test0"><i class="material-icons">account_balance</i>&nbsp;Accueil</a></br></li>
+      	  	<li onclick="changeTab('test1')"><a href="#test1"><i class="material-icons">work</i>&nbsp;Expérience</a></br></li>
+      	  	<li onclick="changeTab('test2')"><a href="#test2"><i class="material-icons">school</i>&nbsp;Formation</a></br></li>
+      	  	<li onclick="changeTab('test3')"><a href="#test3"><i class="material-icons">code</i>&nbsp;Projet</a></br></li>
+      	  	<li onclick="changeTab('test4')"><a href="#test4"><i class="material-icons">settings</i>&nbsp;Compétence</a></br></li>
+      	  	<li onclick="changeTab('test5')"><a href="#test5"><i class="material-icons">g_translate</i>&nbsp;Langues</a></br></li>
+      	  	<li onclick="changeTab('test6')"><a href="#test6"><i class="material-icons">favorite</i>&nbsp;Un jour</a></br></li>
       	  </ul>
 	    </div>
 	  </nav>
@@ -50,9 +50,9 @@
 		<div class="row">
 			<div class="col s12 tabs-container hide-on-med-and-down">
 				<ul class="tabs">
-					<li class="tab col s3"><a href="#test0"><i class="material-icons">account_balance</i>&nbsp;Accueil</a></li>
-					<li class="tab col s3"><a href="#test1"><i class="material-icons">work</i>&nbsp;Expériences</a></li>
-					<li class="tab col s3"><a href="#test2"><i class="material-icons">school</i>&nbsp;Formation</a></li>
+					<li class="tab col s3"><a href="#test0"><i class="material-icons">account_balance</i>&nbsp;Accueil</a></li><br>
+					<li class="tab col s3"><a href="#test1"><i class="material-icons">work</i>&nbsp;Expériences</a></li><br>
+					<li class="tab col s3"><a href="#test2"><i class="material-icons">school</i>&nbsp;Formation</a></li><br>
 					<li class="tab col s3"><a href="#test3"><i class="material-icons">code</i>&nbsp;Projets</a></li>
 					<li class="tab col s3"><a href="#test4"><i class="material-icons">settings</i>&nbsp;Compétences</a></li>
 					<li class="tab col s3"><a href="#test5"><i class="material-icons">language</i>&nbsp;Langues</a></li>
@@ -71,6 +71,9 @@
 						<h6><i class="material-icons">email</i>&nbsp;<span property="email">zoubair@alaoui.in</span></h6>
 						<h6><i class="material-icons">phone</i>&nbsp;<span property="telephone">+33 615-511-420</span></h6>
 						<h6><b>"Un pessimiste voit la difficulté dans chaque opportunité, un optimiste voit l'opportunité dans chaque difficulté." </b><br/>Winston Churchill</h6>
+
+						<p><b>This portal is HTML5/RDFa Lite valid.</b></p>
+						<a href="https://www.w3.org/2012/pyRdfa/extract?uri=http%3A%2F%2Fwww.zoubair.com%2F&rdfa_lite=true&vocab_expansion=false&embedded_rdf=true&validate=yes&space_preserve=true&vocab_cache_report=false&vocab_cache_bypass=false" target="_blank"><img src="https://www.w3.org/Icons/SW/sw-horz-w3c.png" target="_blank"/></a>
 					</div>
 					
 					<!-- <div class="col s12 m12 l8 center-align start-image">
@@ -545,13 +548,9 @@
     <!-- Jquery Libarary -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/angularController.js"></script>
 
     <script type="text/javascript">
-	 // Initialize collapse button
 	 $(".button-collapse").sideNav();
-	 // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-	 //$('.collapsible').collapsible();
 	 function changeTab(tab){
 	 	$('ul.tabs').tabs('select_tab',tab);
 	 	$('.button-collapse').sideNav('hide');

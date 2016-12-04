@@ -34,13 +34,13 @@
       	  </ul>
 
       	  <ul class="side-nav" id="mobile-demo">
-      	  	<li onclick="changeTab('test0')"><a><i class="material-icons">account_balance</i>&nbsp;Home</a></li>
-      	  	<li onclick="changeTab('test1')"><a><i class="material-icons">work</i>&nbsp;Experience</a></li>
-      	  	<li onclick="changeTab('test2')"><a><i class="material-icons">school</i>&nbsp;Education</a></li>
-      	  	<li onclick="changeTab('test3')"><a><i class="material-icons">code</i>&nbsp;Projects</a></li>
-      	  	<li onclick="changeTab('test4')"><a><i class="material-icons">settings</i>&nbsp;Skills</a></li>
-      	  	<li onclick="changeTab('test5')"><a><i class="material-icons">language</i>&nbsp;Languages</a></li>
-      	  	<li onclick="changeTab('test6')"><a><i class="material-icons">favorite</i>&nbsp;Typical day</a></li>
+      	  	<li onclick="changeTab('test0')"><a><i class="material-icons">account_balance</i>&nbsp;Home</a></br></li>
+      	  	<li onclick="changeTab('test1')"><a><i class="material-icons">work</i>&nbsp;Experience</a></br></li>
+      	  	<li onclick="changeTab('test2')"><a><i class="material-icons">school</i>&nbsp;Education</a></br></li>
+      	  	<li onclick="changeTab('test3')"><a><i class="material-icons">code</i>&nbsp;Projects</a></br></li>
+      	  	<li onclick="changeTab('test4')"><a><i class="material-icons">settings</i>&nbsp;Skills</a></br></li>
+      	  	<li onclick="changeTab('test5')"><a><i class="material-icons">language</i>&nbsp;Languages</a></br></li>
+      	  	<li onclick="changeTab('test6')"><a><i class="material-icons">favorite</i>&nbsp;Typical day</a></br></li>
       	  </ul>
 	    </div>
 	</nav>
@@ -69,6 +69,9 @@
 						<h6><i class="material-icons">email</i>&nbsp;<span property="email">zoubair@alaoui.in</span></h6>
 						<h6><i class="material-icons">phone</i>&nbsp;<span property="telephone">+33 615-511-420</span></h6>
 						<h6><b>"The pessimist sees difficulty in every opportunity. The optimist sees the opportunity in every difficulty." </b><br/>Winston Churchill</h6>
+
+						<p><b>This portal is HTML5/RDFa Lite valid.</b></p>
+						<a href="https://www.w3.org/2012/pyRdfa/extract?uri=http%3A%2F%2Fwww.zoubair.com%2Fen&rdfa_lite=true&vocab_expansion=false&embedded_rdf=true&validate=yes&space_preserve=true&vocab_cache_report=false&vocab_cache_bypass=false" target="_blank"><img src="https://www.w3.org/Icons/SW/sw-horz-w3c.png" /></a>
 					</div>
 					
 					<!-- <div class="col s12 m12 l8 center-align start-image">
@@ -533,8 +536,6 @@
     <!-- Jquery Libarary -->
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/materialize.min.js"></script>
-    <script type="text/javascript" src="../js/materialize.min.js"></script>
-    <script type="text/javascript" src="../js/angularController.js"></script>
 
     <script type="text/javascript">
 	 // Initialize collapse button
