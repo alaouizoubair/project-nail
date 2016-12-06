@@ -68,7 +68,7 @@
 						<h6><i class="material-icons">email</i>&nbsp;<span property="email">zoubair@alaoui.in</span></h6>
 						<h6><i class="material-icons">phone</i>&nbsp;<span property="telephone">+33 615-511-420</span></h6>
 						<h6><b>"悲観論者はあらゆる機会に困難を感じている。 楽観主義者はあらゆる難しさの中でチャンスを見ている。" </b><br/>Winston Churchill</h6>
-						<p><b>This portal is HTML5/RDFa Lite valid.</b></p>
+						<p><b>このポケットメールは有効なHTML5 / RDFa Liteです。</b></p>
 						<a href="https://www.w3.org/2012/pyRdfa/extract?uri=http%3A%2F%2Fwww.zoubair.com%2Fjp&rdfa_lite=true&vocab_expansion=false&embedded_rdf=true&validate=yes&space_preserve=true&vocab_cache_report=false&vocab_cache_bypass=false" target="_blank"><img src="https://www.w3.org/Icons/SW/sw-horz-w3c.png" /></a>
 					</div>
 					

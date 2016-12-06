@@ -72,7 +72,7 @@
 						<h6><i class="material-icons">phone</i>&nbsp;<span property="telephone">+33 615-511-420</span></h6>
 						<h6><b>"Un pessimiste voit la difficulté dans chaque opportunité, un optimiste voit l'opportunité dans chaque difficulté." </b><br/>Winston Churchill</h6>
 
-						<p><b>This portal is HTML5/RDFa Lite valid.</b></p>
+						<p><b>Ce portail est compatible avec les normes HTML5/RDFa Lite.</b></p>
 						<a href="https://www.w3.org/2012/pyRdfa/extract?uri=http%3A%2F%2Fwww.zoubair.com%2F&rdfa_lite=true&vocab_expansion=false&embedded_rdf=true&validate=yes&space_preserve=true&vocab_cache_report=false&vocab_cache_bypass=false" target="_blank"><img src="https://www.w3.org/Icons/SW/sw-horz-w3c.png" target="_blank"/></a>
 					</div>
 					
